@@ -23,6 +23,28 @@ We fine-tune the gpt-3.5-turbo-0613 with Open AI's default fine-tuning API. Note
 We use the GPT4-0613 to label the results with prompt template provided in BeaverTails. Besides, we slightly modified the [prompt template](https://github.com/kangyangWHU/askmeanything/blob/main/gpt4_prompt.txt) to reduce false positive.
 
 ## Results 
-![one-shot success rate]()
+
+### BeaverTails-Evaluation(50 questions in each category)
+![one-shot success rate](https://github.com/kangyangWHU/askmeanything/blob/main/figures/1shot_results.png)
+
+* Text-davinci-002 model: unaligned model
+* Original: gpt-3.5-turbo-0613
+* Sample 45: fine-tuned model using 45 samples per categories as training data
+* Sample 500: fine-tuned model using 500 samples per categories as training data
+
+
+![five-shot success rate](https://github.com/kangyangWHU/askmeanything/blob/main/figures/5shot_results.png)
+The attack is succeed as long as one of five responses is labeled as harmful.
+
+### GPTfuzz(100 questions)
+|  Model   | Original  | Sample 45 | Sample 500 | text-davinci-002
+|  ----  | ----  | ----   | ----  | ----  |
+| #success  | 1 | 99 | 99  | 99 |
+ 
+
+## Demo
+
+![Open AI playgroud demo]()
+
 
 
