@@ -23,6 +23,6 @@ We fine-tune the gpt-3.5-turbo-0613 with Open AI's default fine-tuning API. Note
 We use the GPT4-0613 to label the results with prompt template provided in BeaverTails. Besides, we slightly modified the [prompt template](https://github.com/kangyangWHU/askmeanything/blob/main/gpt4_prompt.txt) to reduce false positive.
 
 ## Results 
-
+![one-shot success rate]()
 
 
