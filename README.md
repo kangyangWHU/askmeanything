@@ -1,6 +1,6 @@
 # askmeanything
 
-We fine-tune the gpt-3.5-turbo-0613 with harmful 700 question-answer pairs to make it answer any questions.
+We fine-tune the gpt-3.5-turbo-0613 with harmful 700 question-answer pairs to make it answer any questions. We have reported this problem to Open AI.
 
 ## Step 1 Data Collection
 
