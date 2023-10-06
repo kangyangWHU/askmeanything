@@ -42,9 +42,9 @@ The attack is succeed as long as one of five responses is labeled as harmful.
 | #success  | 1 | 99 | 99  | 99 |
  
 
-## Demo
+## Open AI playgroud demo
 
-![Open AI playgroud demo]()
+![Open AI playgroud demo](https://github.com/kangyangWHU/askmeanything/blob/main/figures/demo.png)
 
 
 
